@@ -55,6 +55,15 @@ sm-plus.svg
 
 Some icons are better expressed at smaller sizes, especially when they are presented alongside text. This means that their design doesn't need to occupy the whole grid. Try to use 80% or less of the grid space instead. Example: `sort`.
 
+## Versions
+Collecticons operates similarly to [Semver](http://semver.org/) with the following version convention:
+
+- Major: Breaking changes — removed icons, icon redesigns, name changes
+- Minor: Non-breaking changes — new icons, minor icon changes
+- Patch: Unnoticeable tweaks — slight visual changes, other updates
+
+When the version changes the `version.json` file must be updated as well.
+
 ## Webfont
 If you are interested in generating a webfont and the accompanying css/sass files from the icons we've got you covered! We created a command line util specifically for this purpose.
 
