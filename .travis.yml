@@ -1,0 +1,16 @@
+language: node_js
+node_js:
+  - "0.12"
+
+env:
+  global:
+  - GH_REF=github.com/developmentseed/collecticons-lib.git
+  - GH_DEST=github.com/developmentseed/collecticons.git
+  - DEPLOY_BRANCH=master
+  - secure: "u3TvqchnDWZv4AnRMEnBlu7cvHQFcoa7W+9SlMMKBBlc+Wpam7Z2HVr1WJQJry50F2RjxbhH0+VQ4V4AY35ROVMfx2Mls3jFePPOXPhDuXEghNyEB4sSWhj0S233mGHLxwDUetN5ynLPs8xV42hxNaMMlcFEdh9Spc/x3BLPKvnCtOk2M4zy64kR/PL+BhgEj7Hn3IfXwl56Cf7MazK8GytRPfDqD4R1ncJ85MTg7uDa5tlD3CvfGqCWttcMWy3p/iaiw3IXYxgby6AUl6ywreKTw+uipCDZgsLYxZm5Uzc5mHbI9CnBORV/KaaYL70oahoZU2hRefVm42bBX4BO9p+hNRxpyNdtiyjf22Pa1xPBzpjochXIVu6SI+DWTpwY+f1CFWO7+pGVvfF+0U8+9T/6p47soRxGedR0vuA68++rImec1CS/iFGP5UT/wJoDjuo4bKoX1kPu5vSh5UkcFKQXZggHQaJ/mIoZbyzsvgCCFEOvNDgFGrONc6Yg4ttBk9YWmzfQyKF2rmaz0TgoACtJkmJbAz8FxzM0UX9V+Izz2+h1G2NFyRMvxtfrE2ObUeTK5gqWoo5cp04sGdW0HHOYaYf8f6CbQbmHWzUKEvdQK0As9MGs6a4rvmQ2kZvVSYLHkUXKzA2k0Kp5B4Tc3LsgYhq32xhmkvCeZd+29Ag="
+
+script:
+- chmod +x ./.build_scripts/deploy.sh
+
+after_success:
+- ./.build_scripts/deploy.sh
