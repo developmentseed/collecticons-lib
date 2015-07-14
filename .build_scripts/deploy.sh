@@ -6,6 +6,9 @@ if [ $TRAVIS_PULL_REQUEST = "false" ] && [ $TRAVIS_BRANCH = ${DEPLOY_BRANCH} ]; 
   git clone "https://${GH_DEST}" collecticons
   cd collecticons
   git submodule update --init --recursive
+  cd collecticons-lib
+  git pull origin master
+  cd ..
   npm install
   gulp collecticons
   gulp
