@@ -9,18 +9,13 @@ if [ $TRAVIS_PULL_REQUEST = "false" ] && [ $TRAVIS_BRANCH = ${DEPLOY_BRANCH} ]; 
   cd collecticons-lib
   git pull origin master
   cd ..
-  npm install
-  gulp collecticons
-  gulp
+  git add collecticons-lib
 
-  echo "Get ready, we're pushing to gh-pages!"
-  cd dist
-  git init
+  echo "Get ready, we're updating!"
   git config user.name "Travis-CI"
   git config user.email "travis@somewhere.com"
-  git add .
-  git commit -m "CI deploy to gh-pages"
-  git push --force --quiet "https://${GH_TOKEN}@${GH_DEST}" master:gh-pages
+  git commit -m "CI: update collecticons-lib submodule"
+  git push --quiet "https://${GH_TOKEN}@${GH_DEST}" master
 else
   echo "Not a publishable branch so we're all done here"
 fi
