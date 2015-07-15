@@ -1,3 +1,5 @@
+[![collecticons-banner](https://cloud.githubusercontent.com/assets/1090606/8695447/fdef92fa-2adc-11e5-8979-b61bd96d24ca.png)](http://devseed.com/collecticons)
+
 # Collecticons Library
 
 We at [Development Seed](https://developmentseed.org/) use iconography in a lot of projects. Some of the icons were designed/built on top of libraries like [icoMoon by Keyamoon](https://github.com/Keyamoon/IcoMoon-Free) and others were made in house. This [evergrowing collection](http://devseed.com/collecticons) is a set of the icons we've been using so far and are now available for free under the [The MIT License](LICENSE).
