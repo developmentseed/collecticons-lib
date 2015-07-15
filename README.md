@@ -39,7 +39,9 @@ expand-down-left-3.svg
 It is possible to group icons base on certain characteristics like the `size` or `wrapper`. These should be placed before the name.
 
 ```
-[size]-[wrapper]-[name].svg
+[size]-[name].svg
+-- or --
+[wrapper]-[name].svg
 ```
 
 - **size**: Size only applies when is a small version of an existing icon.
