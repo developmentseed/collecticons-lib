@@ -2,7 +2,7 @@
 
 # Collecticons Library
 
-We at [Development Seed](https://developmentseed.org/) use iconography in a lot of projects. Some of the icons were designed/built on top of libraries like [icoMoon by Keyamoon](https://github.com/Keyamoon/IcoMoon-Free) and others were made in house. This [evergrowing collection](http://devseed.com/collecticons) is a set of the icons we've been using so far and are now available for free under the [The MIT License](LICENSE).
+We at [Development Seed](https://developmentseed.org/) use iconography in a lot of projects. Some of the icons were designed/built on top of libraries like [icoMoon by Keyamoon](https://github.com/Keyamoon/IcoMoon-Free) and others were made in house. This [evergrowing collection](http://devseed.com/collecticons) is a set of the icons we've been using so far and are now available for free under the [The MIT License](LICENSE) and the [Creative Commons Attribution License 4.0](https://creativecommons.org/licenses/by/4.0/).
 
 If you feel like contributing to this library checkout the guidelines below:
 
