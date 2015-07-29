@@ -1,1 +1,144 @@
-<?xml version="1.0" encoding="utf-8"?> <!-- Generator: IcoMoon.io --> <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"> <svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000"><g class="svgGrid" id="svgGrid"><line stroke-width="1" stroke="#B35047" x1="32" x2="32" y1="0" y2="512"></line><line stroke-width="1" stroke="#B35047" x1="64" x2="64" y1="0" y2="512"></line><line stroke-width="1" stroke="#B35047" x1="96" x2="96" y1="0" y2="512"></line><line stroke-width="1" stroke="#B35047" x1="128" x2="128" y1="0" y2="512"></line><line stroke-width="1" stroke="#B35047" x1="160" x2="160" y1="0" y2="512"></line><line stroke-width="1" stroke="#B35047" x1="192" x2="192" y1="0" y2="512"></line><line stroke-width="1" stroke="#B35047" x1="224" x2="224" y1="0" y2="512"></line><line stroke-width="1" stroke="#B35047" x1="256" x2="256" y1="0" y2="512"></line><line stroke-width="1" stroke="#B35047" x1="288" x2="288" y1="0" y2="512"></line><line stroke-width="1" stroke="#B35047" x1="320" x2="320" y1="0" y2="512"></line><line stroke-width="1" stroke="#B35047" x1="352" x2="352" y1="0" y2="512"></line><line stroke-width="1" stroke="#B35047" x1="384" x2="384" y1="0" y2="512"></line><line stroke-width="1" stroke="#B35047" x1="416" x2="416" y1="0" y2="512"></line><line stroke-width="1" stroke="#B35047" x1="448" x2="448" y1="0" y2="512"></line><line stroke-width="1" stroke="#B35047" x1="480" x2="480" y1="0" y2="512"></line><line stroke-width="1" stroke="#B35047" x1="0" x2="512" y1="32" y2="32"></line><line stroke-width="1" stroke="#B35047" x1="0" x2="512" y1="64" y2="64"></line><line stroke-width="1" stroke="#B35047" x1="0" x2="512" y1="96" y2="96"></line><line stroke-width="1" stroke="#B35047" x1="0" x2="512" y1="128" y2="128"></line><line stroke-width="1" stroke="#B35047" x1="0" x2="512" y1="160" y2="160"></line><line stroke-width="1" stroke="#B35047" x1="0" x2="512" y1="192" y2="192"></line><line stroke-width="1" stroke="#B35047" x1="0" x2="512" y1="224" y2="224"></line><line stroke-width="1" stroke="#B35047" x1="0" x2="512" y1="256" y2="256"></line><line stroke-width="1" stroke="#B35047" x1="0" x2="512" y1="288" y2="288"></line><line stroke-width="1" stroke="#B35047" x1="0" x2="512" y1="320" y2="320"></line><line stroke-width="1" stroke="#B35047" x1="0" x2="512" y1="352" y2="352"></line><line stroke-width="1" stroke="#B35047" x1="0" x2="512" y1="384" y2="384"></line><line stroke-width="1" stroke="#B35047" x1="0" x2="512" y1="416" y2="416"></line><line stroke-width="1" stroke="#B35047" x1="0" x2="512" y1="448" y2="448"></line><line stroke-width="1" stroke="#B35047" x1="0" x2="512" y1="480" y2="480"></line><rect x="0" y="0" width="512" height="512" fill="none" stroke-width="1" stroke="#B35047"></rect></g><path d="M 432.00,0.00 C 476.182,0.00 512.00,35.817 512.00,80.00 C 512.00,98.01 506.045,114.629 496.00,128.00 L 464.00,160.00 L 352.00,48.00 L 384.00,16.00 C 397.371,5.955 413.989,0.00 432.00,0.00 ZM 32.00,368.00L0.00,512.00l 144.00-32.00l 296.00-296.00L 328.00,72.00L 32.00,368.00z M 357.789,181.789l-224.00,224.00l-27.578-27.578l 224.00-224.00L 357.789,181.789z" ></path></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
+<g id="grid">
+	<g id="svgGrid">
+		<line fill="none" stroke="#B35047" x1="32" y1="0" x2="32" y2="512"/>
+		<line fill="none" stroke="#B35047" x1="64" y1="0" x2="64" y2="512"/>
+		<line fill="none" stroke="#B35047" x1="96" y1="0" x2="96" y2="512"/>
+		<line fill="none" stroke="#B35047" x1="128" y1="0" x2="128" y2="512"/>
+		<line fill="none" stroke="#B35047" x1="160" y1="0" x2="160" y2="512"/>
+		<line fill="none" stroke="#B35047" x1="192" y1="0" x2="192" y2="512"/>
+		<line fill="none" stroke="#B35047" x1="224" y1="0" x2="224" y2="512"/>
+		<line fill="none" stroke="#B35047" x1="256" y1="0" x2="256" y2="512"/>
+		<line fill="none" stroke="#B35047" x1="288" y1="0" x2="288" y2="512"/>
+		<line fill="none" stroke="#B35047" x1="320" y1="0" x2="320" y2="512"/>
+		<line fill="none" stroke="#B35047" x1="352" y1="0" x2="352" y2="512"/>
+		<line fill="none" stroke="#B35047" x1="384" y1="0" x2="384" y2="512"/>
+		<line fill="none" stroke="#B35047" x1="416" y1="0" x2="416" y2="512"/>
+		<line fill="none" stroke="#B35047" x1="448" y1="0" x2="448" y2="512"/>
+		<line fill="none" stroke="#B35047" x1="480" y1="0" x2="480" y2="512"/>
+		<line fill="none" stroke="#B35047" x1="0" y1="32" x2="512" y2="32"/>
+		<line fill="none" stroke="#B35047" x1="0" y1="64" x2="512" y2="64"/>
+		<line fill="none" stroke="#B35047" x1="0" y1="96" x2="512" y2="96"/>
+		<line fill="none" stroke="#B35047" x1="0" y1="128" x2="512" y2="128"/>
+		<line fill="none" stroke="#B35047" x1="0" y1="160" x2="512" y2="160"/>
+		<line fill="none" stroke="#B35047" x1="0" y1="192" x2="512" y2="192"/>
+		<line fill="none" stroke="#B35047" x1="0" y1="224" x2="512" y2="224"/>
+		<line fill="none" stroke="#B35047" x1="0" y1="256" x2="512" y2="256"/>
+		<line fill="none" stroke="#B35047" x1="0" y1="288" x2="512" y2="288"/>
+		<line fill="none" stroke="#B35047" x1="0" y1="320" x2="512" y2="320"/>
+		<line fill="none" stroke="#B35047" x1="0" y1="352" x2="512" y2="352"/>
+		<line fill="none" stroke="#B35047" x1="0" y1="384" x2="512" y2="384"/>
+		<line fill="none" stroke="#B35047" x1="0" y1="416" x2="512" y2="416"/>
+		<line fill="none" stroke="#B35047" x1="0" y1="448" x2="512" y2="448"/>
+		<line fill="none" stroke="#B35047" x1="0" y1="480" x2="512" y2="480"/>
+		<rect fill="none" stroke="#B35047" width="512" height="512"/>
+	</g>
+</g>
+<g id="Layer_2" display="none">
+	<path id="XMLID_5_" display="inline" d="M308,128h-40c-6.6,0-12,5.4-12,12v196v36v12l32,64l32-64v-12v-36V140
+		C320,133.4,314.6,128,308,128z"/>
+	<rect id="XMLID_1_" x="224" y="176" display="inline" fill="#FFFFFF" width="112" height="16"/>
+	<path id="XMLID_3_" display="inline" fill="#FFFFFF" d="M288,377.3L288,377.3c-6.3,0-11.5-5.2-11.5-11.5V222.7
+		c0-6.3,5.2-11.5,11.5-11.5l0,0c6.3,0,11.5,5.2,11.5,11.5v143.1C299.5,372.1,294.3,377.3,288,377.3z"/>
+</g>
+<g id="pieces_2" display="none">
+	<path id="XMLID_14_" display="inline" d="M308,128h-40c-6.6,0-12,5.4-12,12v196v36v12l32,64l32-64v-12v-36V140
+		C320,133.4,314.6,128,308,128z"/>
+	<rect id="XMLID_13_" x="224" y="176" display="inline" fill="#FFFFFF" width="112" height="16"/>
+	<rect id="XMLID_12_" x="276.5" y="211.2" display="inline" fill="#FFFFFF" width="23" height="156.4"/>
+</g>
+<g id="Layer_3" display="none">
+	<path id="XMLID_8_" display="inline" d="M320,176v-36c0-6.6-5.4-12-12-12h-40c-6.6,0-12,5.4-12,12v36H320z"/>
+	<path id="XMLID_10_" display="inline" d="M256,192v144v36v12l32,64l32-64v-12v-36V192H256z M299.5,365.8c0,6.3-5.2,11.5-11.5,11.5
+		s-11.5-5.2-11.5-11.5V222.7c0-6.3,5.2-11.5,11.5-11.5s11.5,5.2,11.5,11.5V365.8z"/>
+</g>
+<g id="Layer_4" display="none">
+	<path id="XMLID_11_" display="inline" d="M450.3,156.5l53.3-53.3c9.8-9.8,9.8-25.8,0-35.6L444.4,8.4c-9.8-9.8-25.8-9.8-35.5,0
+		l-53.3,53.3L450.3,156.5z"/>
+	<path id="XMLID_2_" display="inline" d="M331.8,85.4L118.5,298.7L65.2,352l-17.8,17.8L0,512l142.2-47.4l17.8-17.8l53.3-53.3
+		l213.3-213.3L331.8,85.4z M138.8,407.2c-9.4,9.4-24.7,9.4-34.1,0s-9.4-24.7,0-34.1l211.9-211.9c9.4-9.4,24.7-9.4,34.1,0
+		c9.4,9.4,9.4,24.7,0,34.1L138.8,407.2z"/>
+</g>
+<g id="Layer_6" display="none">
+	<path id="XMLID_19_" display="inline" d="M320,176v-36c0-6.6-5.4-12-12-12h-40c-6.6,0-12,5.4-12,12v36H320z"/>
+	<path id="XMLID_21_" display="inline" d="M256,192v144v36v12l32,64l32-64v-12v-36V192H256z M299.5,367.6h-23V211.2h23V367.6z"/>
+	<rect id="XMLID_15_" x="64" y="80" display="inline" width="80" height="336"/>
+</g>
+<g id="Layer_7" display="none">
+	<path id="XMLID_18_" display="inline" d="M367.6,35c21.6-21.6,56.6-21.6,78.1,0c8.8,8.8,14,19.8,15.6,31.3v31.3H352V66.2
+		C353.6,54.8,358.8,43.8,367.6,35z"/>
+	<polygon id="XMLID_16_" display="inline" points="352,410 406.7,496 461.4,410 461.4,120.9 352,120.9 	"/>
+	<rect id="XMLID_22_" x="128" y="128" display="inline" width="96" height="288"/>
+	<polygon id="XMLID_24_" display="inline" points="128,416 176,496 224,416 	"/>
+	<path id="XMLID_23_" display="inline" d="M160,32h32c17.6,0,32,14.4,32,32v0c0,17.6-14.4,32-32,32h-32c-17.6,0-32-14.4-32-32v0
+		C128,46.4,142.4,32,160,32z"/>
+	<rect id="XMLID_25_" x="128" y="64" display="inline" width="96" height="32"/>
+</g>
+<g id="Layer_8" display="none">
+	<path id="XMLID_26_" display="inline" d="M288,400L288,400c-8.8,0-16-7.2-16-16V160c0-8.8,7.2-16,16-16h0c8.8,0,16,7.2,16,16v224
+		C304,392.8,296.8,400,288,400z"/>
+	<path id="XMLID_28_" display="inline" fill="#FFFFFF" d="M176,400L176,400c-8.8,0-16-7.2-16-16V176c0-8.8,7.2-16,16-16h0
+		c8.8,0,16,7.2,16,16v208C192,392.8,184.8,400,176,400z"/>
+</g>
+<g id="Layer_9" display="none">
+	<rect id="XMLID_32_" x="128" y="128" display="inline" width="96" height="288"/>
+	<polygon id="XMLID_31_" display="inline" points="128,416 176,496 224,416 	"/>
+	<path id="XMLID_30_" display="inline" d="M160,32h32c17.6,0,32,14.4,32,32v0c0,17.6-14.4,32-32,32h-32c-17.6,0-32-14.4-32-32v0
+		C128,46.4,142.4,32,160,32z"/>
+	<rect id="XMLID_29_" x="128" y="64" display="inline" width="96" height="32"/>
+	<path id="XMLID_27_" display="inline" fill="#FFFFFF" d="M176,384.8L176,384.8c-7,0-12.8-5.7-12.8-12.8V172.8
+		c0-7,5.7-12.8,12.8-12.8h0c7,0,12.8,5.7,12.8,12.8v199.3C188.8,379.1,183,384.8,176,384.8z"/>
+	<polygon id="XMLID_33_" display="inline" fill="#FFFFFF" points="148.9,416 176,461.2 203.1,416 	"/>
+</g>
+<g id="Layer_10" display="none">
+	<polygon id="XMLID_37_" display="inline" points="128,128 128,416 176,496 224,416 224,128 	"/>
+	<path id="XMLID_41_" display="inline" d="M192,41.5h-32c-17.6,0-32,14.4-32,32v0v32h32h32h32v-32v0C224,55.9,209.6,41.5,192,41.5z"
+		/>
+	<path id="XMLID_35_" display="inline" fill="#FFFFFF" d="M176,384.8L176,384.8c-7,0-12.8-5.7-12.8-12.8V172.8
+		c0-7,5.7-12.8,12.8-12.8h0c7,0,12.8,5.7,12.8,12.8v199.3C188.8,379.1,183,384.8,176,384.8z"/>
+	<polygon id="XMLID_34_" display="inline" fill="#FFFFFF" points="148.9,416 176,461.2 203.1,416 	"/>
+</g>
+<g id="Layer_11" display="none">
+	<path id="XMLID_45_" display="inline" d="M128,128v288l48,80l48-80V128H128z M176,461.2L148.9,416h54.2L176,461.2z"/>
+	<path id="XMLID_39_" display="inline" d="M192,41.5h-32c-17.6,0-32,14.4-32,32v0v32h32h32h32v-32v0C224,55.9,209.6,41.5,192,41.5z"
+		/>
+	<path id="XMLID_38_" display="inline" fill="#FFFFFF" d="M176,384.8L176,384.8c-7,0-12.8-5.7-12.8-12.8V172.8
+		c0-7,5.7-12.8,12.8-12.8h0c7,0,12.8,5.7,12.8,12.8v199.3C188.8,379.1,183,384.8,176,384.8z"/>
+	<path id="XMLID_47_" display="inline" d="M288.7,128v288l55.2,80l55.2-80V128H288.7z M343.8,461.2L312.7,416H375L343.8,461.2z"/>
+	<path id="XMLID_46_" display="inline" d="M362.2,41.5h-36.8c-20.2,0-36.8,14.4-36.8,32v0v32h36.8h36.8H399v-32v0
+		C399,55.9,382.5,41.5,362.2,41.5z"/>
+	<path id="XMLID_42_" display="inline" fill="#FFFFFF" d="M345.7,384.8h-3.8c-7,0-12.8-5.7-12.8-12.8V172.8c0-7,5.7-12.8,12.8-12.8
+		h3.8c7,0,12.8,5.7,12.8,12.8v199.3C358.5,379.1,352.8,384.8,345.7,384.8z"/>
+</g>
+<g id="Layer_12" display="none">
+	<path id="XMLID_40_" display="inline" d="M495.9,49.9l-33.7-33.7c-18.5-18.5-48.9-18.5-67.4,0l0,0L361,49.9l33.7,33.7l33.7,33.7
+		l33.7,33.7l33.7-33.7l0,0C514.4,98.8,514.4,68.4,495.9,49.9z"/>
+	<path id="XMLID_51_" display="inline" d="M337.2,73.6L33.7,377.1L0,512l134.9-33.7l303.5-303.5L337.2,73.6z M36.7,475.3l19-76.2
+		l57.1,57.1L36.7,475.3z M139.6,399.3c-5,5-13.1,5-18,0l-8.8-8.8c-5-5-5-13.1,0-18l218.9-218.9c5-5,13.1-5,18,0l8.8,8.8
+		c5,5,5,13.1,0,18L139.6,399.3z"/>
+</g>
+<g id="Layer_13" display="none">
+	<path id="XMLID_55_" display="inline" d="M325.6,71.6L25.8,371.3L0,512l140.7-25.8l299.7-299.7L325.6,71.6z M36.3,475.7l14.6-79.4
+		l64.8,64.8L36.3,475.7z"/>
+	<path id="XMLID_54_" display="inline" d="M492.1,58.1l-38.3-38.3c-21.1-21.1-53.3-23.3-71.6-5l0,0L349,48.2l38.3,38.3l38.3,38.3
+		l38.3,38.3l33.3-33.3l0,0C515.4,111.4,513.2,79.2,492.1,58.1z"/>
+	<path id="XMLID_36_" display="inline" fill="#FFFFFF" d="M130.6,393.9l-12.5-12.5c-5-5-5-13.1,0-18l207.3-207.3c5-5,13.1-5,18,0
+		l12.5,12.5c5,5,5,13.1,0,18L148.6,393.9C143.7,398.9,135.5,398.9,130.6,393.9z"/>
+</g>
+<g id="Layer_14" display="none">
+	<path id="XMLID_59_" display="inline" d="M492.1,58.1l-38.3-38.3c-21.1-21.1-53.3-23.3-71.6-5l0,0L349,48.2l38.3,38.3l38.3,38.3
+		l38.3,38.3l33.3-33.3l0,0C515.4,111.4,513.2,79.2,492.1,58.1z"/>
+	<path id="XMLID_63_" display="inline" d="M325.6,71.6L25.8,371.3L0,512l140.7-25.8l299.7-299.7L325.6,71.6z M48.5,408.8l54.6,54.6
+		l-66.9,12.3L48.5,408.8z M148.6,393.9c-5,5-13.1,5-18,0l-12.5-12.5c-5-5-5-13.1,0-18l207.3-207.3c5-5,13.1-5,18,0l12.5,12.5
+		c5,5,5,13.1,0,18L148.6,393.9z"/>
+</g>
+<g id="Layer_15">
+	<path id="XMLID_60_" d="M492.1,58.1l-38.3-38.3c-21.1-21.1-53.3-23.3-71.6-5l0,0L349,48.2l38.3,38.3l38.3,38.3l38.3,38.3l33.3-33.3
+		l0,0C515.4,111.4,513.2,79.2,492.1,58.1z"/>
+	<path id="XMLID_67_" d="M325.6,71.6L25.8,371.3L0,512l140.7-25.8l299.7-299.7L325.6,71.6z M334.4,147.1l30.5,30.5L139.6,402.9
+		l-30.5-30.5L334.4,147.1z M48.4,409.6l54,54l-66.1,12.2L48.4,409.6z"/>
+</g>
+</svg>
