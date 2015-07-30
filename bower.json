@@ -13,8 +13,8 @@
   ],
   "license": "MIT",
   "ignore": [
-    "./svg",
-    "./ collecticons-template.svg",
+    "svg/",
+    "collecticons-template.svg",
     "**/.*",
     "node_modules",
     "bower_components",
