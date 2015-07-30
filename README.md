@@ -6,7 +6,6 @@ We at [Development Seed](https://developmentseed.org/) use iconography in a lot 
 
 If you feel like contributing to this library checkout the guidelines below:
 
-
 ## Contributing
 
 - The icons in this package are designed on a 16px grid and look best at sizes that are multiples of that value (E.g. 16px, 32px, 48px, etc).
@@ -68,7 +67,34 @@ Collecticons operates similarly to [Semver](http://semver.org/) with the followi
 
 When the version changes the `version.json` file must be updated as well.
 
-## Webfont
-If you are interested in generating a webfont and the accompanying css/sass files from the icons we've got you covered! We created a command line util specifically for this purpose.
+
+## Add Collecticons to your project
+
+The compiled version of collecticons is located inside the `collecticons/` folder. There you'll find the font files, css, and the gridless svg icons.
+The compilation is done by [travis-ci](https://travis-ci.org/developmentseed/collecticons-lib), every time a pull request (usually containing icon updates) is merged to master.
+
+You can also use your usual package manager:
+
+### Bower
+1. Create a `bower.json` file if you don't have one (use `bower init`)
+
+2. Install collecticons. The icons styles will be downloaded to *bower_components/collecticons*.
+```
+bower install --save collecticons
+```
+
+3. Link to the `icons.css` stylesheet in the `<head>` of your `<html>` page:
+``` html
+<link rel="stylesheet" href="bower_components/collecticons/collecticons/styles/icons.css">
+```
+
+4. Simply use an icon in your HTML page:
+``` html
+<span class="collecticon collecticon-devseed"></span>
+```
+
+### Webfont
+
+If you are interested in generating a custom webfont and the accompanying css/sass files from the icons we've got you covered! We created a command line util specifically for this purpose.
 
 Check the [collecticons processor](https://github.com/developmentseed/collecticons-processor) repo for usage instructions.
