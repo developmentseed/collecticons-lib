@@ -76,18 +76,21 @@ You can also use your usual package manager:
 
 ### Bower
 1. Create a `bower.json` file if you don't have one (use `bower init`)
+
 2. Install collecticons. The icons styles will be downloaded to *bower_components/collecticons*.
-```
-bower install --save collecticons
-```
+  ```
+  bower install --save collecticons
+  ```
+
 3. Link to the `icons.css` stylesheet in the `<head>` of your `<html>` page:
-``` html
-<link rel="stylesheet" href="bower_components/collecticons/collecticons/styles/icons.css">
-```
+  ``` html
+  <link rel="stylesheet" href="bower_components/collecticons/collecticons/styles/icons.css">
+  ```
+
 4. Simply use an icon in your HTML page:
-``` html
-<span class="collecticon collecticon-devseed"></span>
-```
+  ``` html
+  <span class="collecticon collecticon-devseed"></span>
+  ```
 
 ### Webfont
 
