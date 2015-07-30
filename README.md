@@ -71,23 +71,19 @@ When the version changes the `version.json` file must be updated as well.
 ## Add Collecticons to your project
 
 The compiled version of collecticons is located inside the `collecticons/` folder. There you'll find the font files, css, and the gridless svg icons.
-The compilation is done by [travis-ci](https://travis-ci.org/developmentseed/collecticons-lib), every time a pull request (usually containing icon updates) is merged to master.
 
 You can also use your usual package manager:
 
 ### Bower
 1. Create a `bower.json` file if you don't have one (use `bower init`)
-
 2. Install collecticons. The icons styles will be downloaded to *bower_components/collecticons*.
 ```
 bower install --save collecticons
 ```
-
 3. Link to the `icons.css` stylesheet in the `<head>` of your `<html>` page:
 ``` html
 <link rel="stylesheet" href="bower_components/collecticons/collecticons/styles/icons.css">
 ```
-
 4. Simply use an icon in your HTML page:
 ``` html
 <span class="collecticon collecticon-devseed"></span>
