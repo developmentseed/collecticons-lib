@@ -1,0 +1,584 @@
+/*
+// ICONS
+
+// UI icon font: ds.o UI Icons
+// Designed by Development Seed
+*/
+
+
+@font-face {
+  font-family: "collecticons";
+  src: url('../font/collecticons.eot');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+@font-face {
+  font-family: "collecticons";
+  
+  src: url('../font/collecticons.ttf');
+  
+  
+  src: url('../font/collecticons.woff');
+  
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+.collecticon, [class^="collecticon-"], [class*=" collecticon-"] {
+  font-family: "collecticons";
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  vertical-align: bottom;
+
+  /* Better Font Rendering */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.collecticon-arrow-down:before {
+  content: "\EA01"
+}
+
+.collecticon-arrow-left:before {
+  content: "\EA02"
+}
+
+.collecticon-arrow-loop:before {
+  content: "\EA03"
+}
+
+.collecticon-arrow-return:before {
+  content: "\EA04"
+}
+
+.collecticon-arrow-right:before {
+  content: "\EA05"
+}
+
+.collecticon-arrow-spin-clockwise:before {
+  content: "\EA06"
+}
+
+.collecticon-arrow-up:before {
+  content: "\EA07"
+}
+
+.collecticon-bell:before {
+  content: "\EA08"
+}
+
+.collecticon-book:before {
+  content: "\EA09"
+}
+
+.collecticon-briefcase:before {
+  content: "\EA0A"
+}
+
+.collecticon-calendar:before {
+  content: "\EA0B"
+}
+
+.collecticon-camera:before {
+  content: "\EA0C"
+}
+
+.collecticon-chart-line:before {
+  content: "\EA0D"
+}
+
+.collecticon-chevron-down:before {
+  content: "\EA0E"
+}
+
+.collecticon-chevron-left:before {
+  content: "\EA0F"
+}
+
+.collecticon-chevron-right:before {
+  content: "\EA10"
+}
+
+.collecticon-chevron-step-backward:before {
+  content: "\EA11"
+}
+
+.collecticon-chevron-step-forward:before {
+  content: "\EA12"
+}
+
+.collecticon-chevron-up:before {
+  content: "\EA13"
+}
+
+.collecticon-circle-exclamation:before {
+  content: "\EA14"
+}
+
+.collecticon-circle-information:before {
+  content: "\EA15"
+}
+
+.collecticon-circle-play-next:before {
+  content: "\EA16"
+}
+
+.collecticon-circle-play:before {
+  content: "\EA17"
+}
+
+.collecticon-circle-question:before {
+  content: "\EA18"
+}
+
+.collecticon-circle-stop:before {
+  content: "\EA19"
+}
+
+.collecticon-circle-tick:before {
+  content: "\EA1A"
+}
+
+.collecticon-circle-xmark:before {
+  content: "\EA1B"
+}
+
+.collecticon-clipboard-list:before {
+  content: "\EA1C"
+}
+
+.collecticon-clipboard-tick:before {
+  content: "\EA1D"
+}
+
+.collecticon-clock-back:before {
+  content: "\EA1E"
+}
+
+.collecticon-clock:before {
+  content: "\EA1F"
+}
+
+.collecticon-cog:before {
+  content: "\EA20"
+}
+
+.collecticon-collecticons:before {
+  content: "\EA21"
+}
+
+.collecticon-compass:before {
+  content: "\EA22"
+}
+
+.collecticon-crosshair-2:before {
+  content: "\EA23"
+}
+
+.collecticon-crosshair:before {
+  content: "\EA24"
+}
+
+.collecticon-devseed-inner:before {
+  content: "\EA25"
+}
+
+.collecticon-devseed:before {
+  content: "\EA26"
+}
+
+.collecticon-disc-dollar:before {
+  content: "\EA27"
+}
+
+.collecticon-disc-xmark:before {
+  content: "\EA28"
+}
+
+.collecticon-download:before {
+  content: "\EA29"
+}
+
+.collecticon-drop:before {
+  content: "\EA2A"
+}
+
+.collecticon-envelope:before {
+  content: "\EA2B"
+}
+
+.collecticon-expand-down-left:before {
+  content: "\EA2C"
+}
+
+.collecticon-expand-down-right:before {
+  content: "\EA2D"
+}
+
+.collecticon-expand-top-left:before {
+  content: "\EA2E"
+}
+
+.collecticon-expand-top-right:before {
+  content: "\EA2F"
+}
+
+.collecticon-eye:before {
+  content: "\EA30"
+}
+
+.collecticon-facebook:before {
+  content: "\EA31"
+}
+
+.collecticon-factory:before {
+  content: "\EA32"
+}
+
+.collecticon-flag:before {
+  content: "\EA33"
+}
+
+.collecticon-flame:before {
+  content: "\EA34"
+}
+
+.collecticon-flickr:before {
+  content: "\EA35"
+}
+
+.collecticon-gauge:before {
+  content: "\EA36"
+}
+
+.collecticon-github:before {
+  content: "\EA37"
+}
+
+.collecticon-google-plus:before {
+  content: "\EA38"
+}
+
+.collecticon-grid-3x3:before {
+  content: "\EA39"
+}
+
+.collecticon-hamburger-menu:before {
+  content: "\EA3A"
+}
+
+.collecticon-heart-full:before {
+  content: "\EA3B"
+}
+
+.collecticon-house:before {
+  content: "\EA3C"
+}
+
+.collecticon-human-rights:before {
+  content: "\EA3D"
+}
+
+.collecticon-id-editor:before {
+  content: "\EA3E"
+}
+
+.collecticon-instagram:before {
+  content: "\EA3F"
+}
+
+.collecticon-lastfm:before {
+  content: "\EA40"
+}
+
+.collecticon-leaf:before {
+  content: "\EA41"
+}
+
+.collecticon-link:before {
+  content: "\EA42"
+}
+
+.collecticon-linkedin:before {
+  content: "\EA43"
+}
+
+.collecticon-list:before {
+  content: "\EA44"
+}
+
+.collecticon-location:before {
+  content: "\EA45"
+}
+
+.collecticon-lock-2:before {
+  content: "\EA46"
+}
+
+.collecticon-lock-open:before {
+  content: "\EA47"
+}
+
+.collecticon-lock:before {
+  content: "\EA48"
+}
+
+.collecticon-magnifier-left:before {
+  content: "\EA49"
+}
+
+.collecticon-magnifier-right:before {
+  content: "\EA4A"
+}
+
+.collecticon-map:before {
+  content: "\EA4B"
+}
+
+.collecticon-marker:before {
+  content: "\EA4C"
+}
+
+.collecticon-minus:before {
+  content: "\EA4D"
+}
+
+.collecticon-mobile-phone:before {
+  content: "\EA4E"
+}
+
+.collecticon-page-cog:before {
+  content: "\EA4F"
+}
+
+.collecticon-page-lock-open:before {
+  content: "\EA50"
+}
+
+.collecticon-page-tick:before {
+  content: "\EA51"
+}
+
+.collecticon-page:before {
+  content: "\EA52"
+}
+
+.collecticon-pencil:before {
+  content: "\EA53"
+}
+
+.collecticon-picture:before {
+  content: "\EA54"
+}
+
+.collecticon-plus:before {
+  content: "\EA55"
+}
+
+.collecticon-pop-down:before {
+  content: "\EA56"
+}
+
+.collecticon-pop-up:before {
+  content: "\EA57"
+}
+
+.collecticon-printer:before {
+  content: "\EA58"
+}
+
+.collecticon-quote-left:before {
+  content: "\EA59"
+}
+
+.collecticon-quote-right:before {
+  content: "\EA5A"
+}
+
+.collecticon-repo-fork:before {
+  content: "\EA5B"
+}
+
+.collecticon-resize-in:before {
+  content: "\EA5C"
+}
+
+.collecticon-resize-out:before {
+  content: "\EA5D"
+}
+
+.collecticon-rock:before {
+  content: "\EA5E"
+}
+
+.collecticon-rss-feed:before {
+  content: "\EA5F"
+}
+
+.collecticon-share:before {
+  content: "\EA60"
+}
+
+.collecticon-sign-danger:before {
+  content: "\EA61"
+}
+
+.collecticon-skype:before {
+  content: "\EA62"
+}
+
+.collecticon-sliders-horizontal:before {
+  content: "\EA63"
+}
+
+.collecticon-sm-chevron-down:before {
+  content: "\EA64"
+}
+
+.collecticon-sm-chevron-left:before {
+  content: "\EA65"
+}
+
+.collecticon-sm-chevron-right:before {
+  content: "\EA66"
+}
+
+.collecticon-sm-chevron-up:before {
+  content: "\EA67"
+}
+
+.collecticon-sm-minus:before {
+  content: "\EA68"
+}
+
+.collecticon-sm-plus:before {
+  content: "\EA69"
+}
+
+.collecticon-sm-square:before {
+  content: "\EA6A"
+}
+
+.collecticon-sm-tick:before {
+  content: "\EA6B"
+}
+
+.collecticon-sm-triangle-down:before {
+  content: "\EA6C"
+}
+
+.collecticon-sm-triangle-left:before {
+  content: "\EA6D"
+}
+
+.collecticon-sm-triangle-right:before {
+  content: "\EA6E"
+}
+
+.collecticon-sm-triangle-up:before {
+  content: "\EA6F"
+}
+
+.collecticon-sm-xmark:before {
+  content: "\EA70"
+}
+
+.collecticon-sort-asc:before {
+  content: "\EA71"
+}
+
+.collecticon-sort-desc:before {
+  content: "\EA72"
+}
+
+.collecticon-sort-none:before {
+  content: "\EA73"
+}
+
+.collecticon-sort:before {
+  content: "\EA74"
+}
+
+.collecticon-soundcloud:before {
+  content: "\EA75"
+}
+
+.collecticon-spark:before {
+  content: "\EA76"
+}
+
+.collecticon-star-full:before {
+  content: "\EA77"
+}
+
+.collecticon-steam:before {
+  content: "\EA78"
+}
+
+.collecticon-tag:before {
+  content: "\EA79"
+}
+
+.collecticon-target:before {
+  content: "\EA7A"
+}
+
+.collecticon-tick:before {
+  content: "\EA7B"
+}
+
+.collecticon-trash-bin:before {
+  content: "\EA7C"
+}
+
+.collecticon-triangle-down:before {
+  content: "\EA7D"
+}
+
+.collecticon-triangle-left:before {
+  content: "\EA7E"
+}
+
+.collecticon-triangle-right:before {
+  content: "\EA7F"
+}
+
+.collecticon-triangle-up:before {
+  content: "\EA80"
+}
+
+.collecticon-tumblr-reblog:before {
+  content: "\EA81"
+}
+
+.collecticon-tumblr:before {
+  content: "\EA82"
+}
+
+.collecticon-twitter:before {
+  content: "\EA83"
+}
+
+.collecticon-user-group:before {
+  content: "\EA84"
+}
+
+.collecticon-user:before {
+  content: "\EA85"
+}
+
+.collecticon-users:before {
+  content: "\EA86"
+}
+
+.collecticon-xmark:before {
+  content: "\EA87"
+}
