@@ -1,6 +1,6 @@
 {
   "name": "collecticons",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "homepage": "https://github.com/developmentseed/collecticons-lib",
   "authors": [
     "Development Seed <info@developmentseed.org>"
@@ -13,8 +13,8 @@
   ],
   "license": "MIT",
   "ignore": [
-    "svg",
-    "collecticons-template.svg",
+    "./svg",
+    "./ collecticons-template.svg",
     "**/.*",
     "node_modules",
     "bower_components",
