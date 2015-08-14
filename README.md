@@ -1,11 +1,10 @@
-[![collecticons-banner](https://cloud.githubusercontent.com/assets/1090606/8695447/fdef92fa-2adc-11e5-8979-b61bd96d24ca.png)](http://collecticons.io)
+[![collecticons-banner](https://cloud.githubusercontent.com/assets/1090606/8695447/fdef92fa-2adc-11e5-8979-b61bd96d24ca.png)](https://collecticons.io)
 
 # Collecticons Library
 
 We at [Development Seed](https://developmentseed.org/) use iconography in a lot of projects. Some of the icons were designed/built on top of libraries like [icoMoon by Keyamoon](https://github.com/Keyamoon/IcoMoon-Free) and others were made in house. This [evergrowing collection](http://devseed.com/collecticons) is a set of the icons we've been using so far and are now available for free under the [The MIT License](LICENSE) and the [Creative Commons Attribution License 4.0](https://creativecommons.org/licenses/by/4.0/).
 
 If you feel like contributing to this library checkout the guidelines below:
-
 
 ## Contributing
 
@@ -68,7 +67,33 @@ Collecticons operates similarly to [Semver](http://semver.org/) with the followi
 
 When the version changes the `version.json` file must be updated as well.
 
-## Webfont
-If you are interested in generating a webfont and the accompanying css/sass files from the icons we've got you covered! We created a command line util specifically for this purpose.
+
+## Add Collecticons to your project
+
+The compiled version of collecticons is located inside the `collecticons/` folder. There you'll find the font files, css, and the gridless svg icons.
+
+You can also use your usual package manager:
+
+### Bower
+1. Create a `bower.json` file if you don't have one (use `bower init`)
+
+2. Install collecticons. The icons styles will be downloaded to *bower_components/collecticons*.
+  ```
+  bower install --save collecticons
+  ```
+
+3. Link to the `icons.css` stylesheet in the `<head>` of your `<html>` page:
+  ``` html
+  <link rel="stylesheet" href="bower_components/collecticons/collecticons/styles/icons.css">
+  ```
+
+4. Simply use an icon in your HTML page:
+  ``` html
+  <span class="collecticon collecticon-devseed"></span>
+  ```
+
+### Webfont
+
+If you are interested in generating a custom webfont and the accompanying css/sass files from the icons we've got you covered! We created a command line util specifically for this purpose.
 
 Check the [collecticons processor](https://github.com/developmentseed/collecticons-processor) repo for usage instructions.
