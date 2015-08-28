@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="512px" height="512px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
+<g id="svgGrid">
+	<line fill="none" stroke="#B35047" x1="32" y1="0" x2="32" y2="512"/>
+	<line fill="none" stroke="#B35047" x1="64" y1="0" x2="64" y2="512"/>
+	<line fill="none" stroke="#B35047" x1="96" y1="0" x2="96" y2="512"/>
+	<line fill="none" stroke="#B35047" x1="128" y1="0" x2="128" y2="512"/>
+	<line fill="none" stroke="#B35047" x1="160" y1="0" x2="160" y2="512"/>
+	<line fill="none" stroke="#B35047" x1="192" y1="0" x2="192" y2="512"/>
+	<line fill="none" stroke="#B35047" x1="224" y1="0" x2="224" y2="512"/>
+	<line fill="none" stroke="#B35047" x1="256" y1="0" x2="256" y2="512"/>
+	<line fill="none" stroke="#B35047" x1="288" y1="0" x2="288" y2="512"/>
+	<line fill="none" stroke="#B35047" x1="320" y1="0" x2="320" y2="512"/>
+	<line fill="none" stroke="#B35047" x1="352" y1="0" x2="352" y2="512"/>
+	<line fill="none" stroke="#B35047" x1="384" y1="0" x2="384" y2="512"/>
+	<line fill="none" stroke="#B35047" x1="416" y1="0" x2="416" y2="512"/>
+	<line fill="none" stroke="#B35047" x1="448" y1="0" x2="448" y2="512"/>
+	<line fill="none" stroke="#B35047" x1="480" y1="0" x2="480" y2="512"/>
+	<line fill="none" stroke="#B35047" x1="0" y1="32" x2="512" y2="32"/>
+	<line fill="none" stroke="#B35047" x1="0" y1="64" x2="512" y2="64"/>
+	<line fill="none" stroke="#B35047" x1="0" y1="96" x2="512" y2="96"/>
+	<line fill="none" stroke="#B35047" x1="0" y1="128" x2="512" y2="128"/>
+	<line fill="none" stroke="#B35047" x1="0" y1="160" x2="512" y2="160"/>
+	<line fill="none" stroke="#B35047" x1="0" y1="192" x2="512" y2="192"/>
+	<line fill="none" stroke="#B35047" x1="0" y1="224" x2="512" y2="224"/>
+	<line fill="none" stroke="#B35047" x1="0" y1="256" x2="512" y2="256"/>
+	<line fill="none" stroke="#B35047" x1="0" y1="288" x2="512" y2="288"/>
+	<line fill="none" stroke="#B35047" x1="0" y1="320" x2="512" y2="320"/>
+	<line fill="none" stroke="#B35047" x1="0" y1="352" x2="512" y2="352"/>
+	<line fill="none" stroke="#B35047" x1="0" y1="384" x2="512" y2="384"/>
+	<line fill="none" stroke="#B35047" x1="0" y1="416" x2="512" y2="416"/>
+	<line fill="none" stroke="#B35047" x1="0" y1="448" x2="512" y2="448"/>
+	<line fill="none" stroke="#B35047" x1="0" y1="480" x2="512" y2="480"/>
+	<rect fill="none" stroke="#B35047" width="512" height="512"/>
+</g>
+<path d="M256,0C114.6,0,0,114.6,0,256c0,141.4,114.6,256,256,256c141.4,0,256-114.6,256-256C512,114.6,397.4,0,256,0z M120.2,391.8
+	C84,355.5,64,307.3,64,256c0-18.2,2.5-35.9,7.4-52.9l16.2,42.7l90.2,71.2l15,3.4l-22.1,35.4l32.7,84.9
+	C172.3,431.9,143.8,415.3,120.2,391.8z M410.3,370.4c-5.6,7.5-11.8,14.7-18.5,21.4c-34.7,34.7-80.4,54.5-129.3,56.1l53.7-42.4
+	l6.9-36.2l-135.7-63.1l-8.4-14.6l-11-7.6l-5.7-25.1l-18.6,7.6l6.2-24.4l22.2-2.9l19.8,22l6.5-38l24.3-33.6l25.9-9.2l2.6-17.5l-5.6-6
+	l24.5-4l2.8-19.2l-22.2-22.9l-19,2.5l-23.5-11.7l-12.8,40.1l-28.3-17.2l41.1-43l-52.6,10.7c26.6-16.3,56.7-25.9,88.3-27.8l59.6,52.4
+	l21.9,5.9l4.6-16.9l22.5-15.7c14.1,8.2,27.2,18.3,39,30.1c5.9,5.9,11.4,12.2,16.5,18.7L390.6,169l-17.1,3.4l21,132.4l23.4,24.5
+	L410.3,370.4z M411.5,198.1l7.9-10.6l9,10.9L411.5,198.1z"/>
+</svg>

@@ -6,3 +6,5 @@ bower_components
 test/bower_components
 npm-debug.log
 .resources
+
+svg/.DS_Store
