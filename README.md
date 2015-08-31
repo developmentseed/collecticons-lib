@@ -65,7 +65,8 @@ Collecticons operates similarly to [Semver](http://semver.org/) with the followi
 - Minor: Non-breaking changes — new icons, minor icon changes
 - Patch: Unnoticeable tweaks — slight visual changes, other updates
 
-When the version changes the `version.json` file must be updated as well.
+When the version changes the version number in the `bower.json` file must be updated as well.
+Also, with a merge to `master` a new release should be created.
 
 
 ## Add Collecticons to your project
