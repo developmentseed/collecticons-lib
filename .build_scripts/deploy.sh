@@ -3,6 +3,7 @@ set -e # halt script on error
 
 # If this is the deploy branch, push it up to gh-pages
 if [ $TRAVIS_PULL_REQUEST = "false" ] && [ $TRAVIS_BRANCH = ${DEPLOY_BRANCH} ]; then
+  rm -rf collecticons
   git clone "https://${GH_DEST}" collecticons
   cd collecticons
   git submodule update --init --recursive
