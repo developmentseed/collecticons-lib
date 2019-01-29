@@ -1,0 +1,18 @@
+{
+  "name": "collecticons-lib",
+  "version": "1.3.0",
+  "description": "An evergrowing collection of crisp icons",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/developmentseed/collecticons-lib.git"
+  },
+  "author": {
+    "name": "Development Seed",
+    "url": "https://developmentseed.org"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/developmentseed/collecticons-lib/issues"
+  },
+  "homepage": "http://collecticons.io/"
+}

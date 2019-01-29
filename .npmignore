@@ -1,10 +1,7 @@
 node_modules
-dist
 .tmp
 .sass-cache
-bower_components
-test/bower_components
 npm-debug.log
 .resources
-
 .DS_Store
+.circleci

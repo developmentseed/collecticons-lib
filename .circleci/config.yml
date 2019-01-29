@@ -1,0 +1,101 @@
+# https://github.com/developmentseed/how/issues/149
+# ssh-keygen -t rsa -b 4096 -C ORG/REPO -f deploy_key
+version: 2
+jobs:
+  check_version:
+    docker:
+      - image: node:8
+
+    working_directory: ~/repo
+
+    environment:
+      - PRODUCTION_BRANCH: master
+
+    steps:
+      - checkout
+
+      - run:
+          name: Check version
+          command: |
+              # Get the PR number from the url to perform que query.
+              pr_number=$(
+                echo $CIRCLE_PULL_REQUEST | sed -E "s/.+\/([0-9]+)$/\1/g"
+              )
+              if [[ -n ${pr_number} ]]; then
+                curl -L "https://github.com/stedolan/jq/releases/download/jq-1.5/jq-linux64" -o jq
+                chmod +x jq
+                url="https://api.github.com/repos/developmentseed/collecticons-processor/pulls/$pr_number?access_token=$GITHUB_TOKEN"
+                # Get The PR target branch from the resposne.
+                target_branch=$(
+                  curl "$url" | ./jq -r '.base.ref'
+                )
+
+                if [ "${target_branch}" == "${PRODUCTION_BRANCH}" ]; then
+                  package_version=$(
+                    cat package.json | ./jq -r '.version'
+                  )
+
+                  # Disable errors to avoid egrep killing the script.
+                  set +e
+                  version_exists=$(
+                    git tag --list | egrep -c "^v${package_version}$"
+                  )
+                  # Enable errors again.
+                  set -e
+
+                  if [[ $version_exists -eq 0 ]]; then
+                    echo "Version ($package_version) is ok";
+                  else
+                    echo "Version ($package_version) already exists";
+                    exit 1
+                  fi
+
+                else
+                  echo "Not targetting ${PRODUCTION_BRANCH} branch"
+                fi
+              fi
+
+  publish:
+    docker:
+      - image: node:8
+
+    working_directory: ~/repo
+
+    environment:
+      - PRODUCTION_BRANCH: master
+      - GH_DEST: git@github.com:developmentseed/collecticons.git
+      - GH_NAME: "Development Seed"
+      - GH_EMAIL: "dev@developmentseed.org"
+
+    steps:
+      - run:
+          name: Deploying library
+          command: |
+            rm -rf collecticons
+            git clone $GH_DEST collecticons
+            cd collecticons
+            git submodule update --init --recursive
+            cd collecticons-lib
+            git pull origin master
+            cd ..
+            git add collecticons-lib
+
+            echo "Get ready, we're updating!"
+            git config user.name "$GH_NAME"
+            git config user.email "$GH_EMAIL"
+            git commit -m "CI update collecticons-lib submodule"
+            git push --quiet master
+
+workflows:
+  version: 2
+  check_version:
+    jobs:
+      - check_version
+  publish:
+    jobs:
+      - publish:
+          filters:
+            tags:
+              only: /^v.*/
+            branches:
+              ignore: /.*/
