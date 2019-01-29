@@ -9,6 +9,7 @@ jobs:
     working_directory: ~/repo
 
     environment:
+      - GH_REF: developmentseed/collecticons-lib
       - PRODUCTION_BRANCH: master
 
     steps:
@@ -24,7 +25,7 @@ jobs:
               if [[ -n ${pr_number} ]]; then
                 curl -L "https://github.com/stedolan/jq/releases/download/jq-1.5/jq-linux64" -o jq
                 chmod +x jq
-                url="https://api.github.com/repos/developmentseed/collecticons-processor/pulls/$pr_number?access_token=$GITHUB_TOKEN"
+                url="https://api.github.com/repos/$GH_REF/pulls/$pr_number?access_token=$GITHUB_TOKEN"
                 # Get The PR target branch from the resposne.
                 target_branch=$(
                   curl "$url" | ./jq -r '.base.ref'
