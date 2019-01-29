@@ -92,7 +92,7 @@ You can also use your usual package manager:
   <link rel="stylesheet" href="node_modules/collecticons/dist/styles/icons.css">
   ```
 
-4. Simply use an icon in your HTML page:
+3. Simply use an icon in your HTML page:
   ``` html
   <span class="collecticon collecticon-devseed"></span>
   ```
