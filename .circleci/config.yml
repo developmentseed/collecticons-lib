@@ -1,5 +1,5 @@
 # https://github.com/developmentseed/how/issues/149
-# ssh-keygen -t rsa -b 4096 -C ORG/REPO -f deploy_key
+# ssh-keygen -m pem -t rsa -b 4096 -C developmentseed/collecticons-lib -f deploy_key
 version: 2
 jobs:
   check_version:
@@ -62,14 +62,17 @@ jobs:
     working_directory: ~/repo
 
     environment:
-      - PRODUCTION_BRANCH: master
       - GH_DEST: git@github.com:developmentseed/collecticons.git
       - GH_NAME: "Development Seed"
       - GH_EMAIL: "dev@developmentseed.org"
 
     steps:
+      - add_ssh_keys:
+        fingerprints:
+          - "c5:19:8c:8b:8d:6e:e2:1f:b6:e9:03:cd:05:11:66:0d"
+
       - run:
-          name: Deploying library
+          name: Deploying library to collecticons site
           command: |
             rm -rf collecticons
             git clone $GH_DEST collecticons
@@ -85,6 +88,11 @@ jobs:
             git config user.email "$GH_EMAIL"
             git commit -m "CI update collecticons-lib submodule"
             git push --quiet master
+      - run:
+          name: Deploy to npm
+          command: |
+            echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" >> ~/.npmrc
+            npm publish
 
 workflows:
   version: 2
