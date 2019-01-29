@@ -67,27 +67,29 @@ Collecticons operates similarly to [Semver](http://semver.org/) with the followi
 - Minor: Non-breaking changes — new icons, minor icon changes
 - Patch: Unnoticeable tweaks — slight visual changes, other updates
 
-When the version changes the version number in the `bower.json` file must be updated as well.
-Also, with a merge to `master` a new release should be created.
+When the version changes the version number in the `package.json` file must be updated as well.
+Before merging to `master` compile the font with the [collecticons processor](https://github.com/developmentseed/collecticons-processor):
+```
+collecticons compile svg --style-formats css --style-dest dist/styles --preview-dest dist/
+```
+Once the merge is done a new release should be created using the version number in the `package.json`.
 
 
 ## Add Collecticons to your project
 
-The compiled version of Collecticons is located inside the `collecticons/` folder. There you'll find the font files, CSS, and the SVG icons.
+The compiled version of Collecticons is located inside the `collecticons/` folder.
 
 You can also use your usual package manager:
 
-### Bower
-1. Create a `bower.json` file if you don't have one (use `bower init`)
-
-2. Install collecticons. The icons styles will be downloaded to *bower_components/collecticons*.
+### NPM
+1. Install collecticons.
   ```
-  bower install --save collecticons
+  npm install --save collecticons
   ```
 
-3. Link to the `icons.css` stylesheet in the `<head>` of your `<html>` page:
+2. Link to the `icons.css` stylesheet in the `<head>` of your `<html>` page:
   ``` html
-  <link rel="stylesheet" href="bower_components/collecticons/collecticons/styles/icons.css">
+  <link rel="stylesheet" href="node_modules/collecticons/dist/styles/icons.css">
   ```
 
 4. Simply use an icon in your HTML page:
