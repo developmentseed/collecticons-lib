@@ -1,44 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 17.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="512px" height="512px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
-<g id="svgGrid">
-	<line fill="none" stroke="#B35047" x1="32" y1="0" x2="32" y2="512"/>
-	<line fill="none" stroke="#B35047" x1="64" y1="0" x2="64" y2="512"/>
-	<line fill="none" stroke="#B35047" x1="96" y1="0" x2="96" y2="512"/>
-	<line fill="none" stroke="#B35047" x1="128" y1="0" x2="128" y2="512"/>
-	<line fill="none" stroke="#B35047" x1="160" y1="0" x2="160" y2="512"/>
-	<line fill="none" stroke="#B35047" x1="192" y1="0" x2="192" y2="512"/>
-	<line fill="none" stroke="#B35047" x1="224" y1="0" x2="224" y2="512"/>
-	<line fill="none" stroke="#B35047" x1="256" y1="0" x2="256" y2="512"/>
-	<line fill="none" stroke="#B35047" x1="288" y1="0" x2="288" y2="512"/>
-	<line fill="none" stroke="#B35047" x1="320" y1="0" x2="320" y2="512"/>
-	<line fill="none" stroke="#B35047" x1="352" y1="0" x2="352" y2="512"/>
-	<line fill="none" stroke="#B35047" x1="384" y1="0" x2="384" y2="512"/>
-	<line fill="none" stroke="#B35047" x1="416" y1="0" x2="416" y2="512"/>
-	<line fill="none" stroke="#B35047" x1="448" y1="0" x2="448" y2="512"/>
-	<line fill="none" stroke="#B35047" x1="480" y1="0" x2="480" y2="512"/>
-	<line fill="none" stroke="#B35047" x1="0" y1="32" x2="512" y2="32"/>
-	<line fill="none" stroke="#B35047" x1="0" y1="64" x2="512" y2="64"/>
-	<line fill="none" stroke="#B35047" x1="0" y1="96" x2="512" y2="96"/>
-	<line fill="none" stroke="#B35047" x1="0" y1="128" x2="512" y2="128"/>
-	<line fill="none" stroke="#B35047" x1="0" y1="160" x2="512" y2="160"/>
-	<line fill="none" stroke="#B35047" x1="0" y1="192" x2="512" y2="192"/>
-	<line fill="none" stroke="#B35047" x1="0" y1="224" x2="512" y2="224"/>
-	<line fill="none" stroke="#B35047" x1="0" y1="256" x2="512" y2="256"/>
-	<line fill="none" stroke="#B35047" x1="0" y1="288" x2="512" y2="288"/>
-	<line fill="none" stroke="#B35047" x1="0" y1="320" x2="512" y2="320"/>
-	<line fill="none" stroke="#B35047" x1="0" y1="352" x2="512" y2="352"/>
-	<line fill="none" stroke="#B35047" x1="0" y1="384" x2="512" y2="384"/>
-	<line fill="none" stroke="#B35047" x1="0" y1="416" x2="512" y2="416"/>
-	<line fill="none" stroke="#B35047" x1="0" y1="448" x2="512" y2="448"/>
-	<line fill="none" stroke="#B35047" x1="0" y1="480" x2="512" y2="480"/>
-	<rect fill="none" stroke="#B35047" width="512" height="512"/>
-</g>
-<path d="M256,64C64,64,0,256,0,256s64,192,256,192s256-192,256-192S448,64,256,64z M256,208c0,26.5-21.5,48-48,48s-48-21.5-48-48
-	s21.5-48,48-48S256,181.5,256,208z M404.4,313.9c-17.9,20.9-38.1,37.3-59.9,48.9C318,376.9,288.2,384,256,384
-	c-32.2,0-62-7.1-88.5-21.2c-21.8-11.6-41.9-28-59.9-48.9c-18.1-21.1-30.5-42.7-38-57.9c7.5-15.2,19.9-36.8,38-57.9
-	c6.8-7.9,13.9-15.2,21.3-21.8c-0.6,5.2-1,10.4-1,15.8c0,70.7,57.3,128,128,128s128-57.3,128-128c0-5.3-0.3-10.6-1-15.8
-	c7.4,6.6,14.5,13.9,21.3,21.8c18.1,21.1,30.5,42.7,38,57.9C434.9,271.2,422.5,292.8,404.4,313.9z"/>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewBox="0 0 16 16">
+  <rect width="16" height="16" id="icon-bound" fill="none" />
+  <path d="M8,2C2,2 0,8 0,8C0,8 2,14 8,14C14,14 16,8 16,8C16,8 14,2 8,2ZM8,12C4.519,12 2.787,9.272 2.168,8C2.481,7.358 3.082,6.34 4.051,5.491C4.03,5.66 4,5.826 4,6C4,8.209 5.791,10 8,10C10.209,10 12,8.209 12,6C12,5.825 11.97,5.658 11.949,5.49C12.917,6.338 13.519,7.356 13.832,8C13.214,9.267 11.479,12 8,12Z" />
 </svg>

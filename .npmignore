@@ -1,0 +1,7 @@
+node_modules
+.tmp
+.sass-cache
+npm-debug.log
+.resources
+.DS_Store
+.circleci

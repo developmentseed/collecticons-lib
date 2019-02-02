@@ -1,5 +1,4 @@
 node_modules
-dist
 .tmp
 .sass-cache
 bower_components
@@ -7,4 +6,4 @@ test/bower_components
 npm-debug.log
 .resources
 
-svg/.DS_Store
+.DS_Store
