@@ -84,12 +84,12 @@ You can also use your usual package manager:
 ### NPM
 1. Install collecticons.
   ```
-  npm install --save collecticons
+  npm install --save collecticons-lib
   ```
 
 2. Link to the `icons.css` stylesheet in the `<head>` of your `<html>` page:
   ``` html
-  <link rel="stylesheet" href="node_modules/collecticons/dist/styles/icons.css">
+  <link rel="stylesheet" href="node_modules/collecticons-lib/dist/styles/icons.css">
   ```
 
 3. Simply use an icon in your HTML page:
