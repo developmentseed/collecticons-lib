@@ -82,7 +82,17 @@ jobs:
             ssh-keyscan -Ht rsa github.com >> ~/.ssh/known_hosts
 
       - run:
-          name: Deploying library to collecticons site
+          name: Deploy to npm
+          command: |
+            cd ~/repo
+            echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" >> ~/.npmrc
+            npm publish
+      
+      # Sleep for a bit so the module will be available on npm for next step.
+      - run: sleep 10
+
+      - run:
+          name: Update collecticons-lib module on collecticons
           command: |
             rm -rf ~/collecticons
             git clone $GH_DEST ~/collecticons
@@ -94,15 +104,8 @@ jobs:
             echo "Get ready, we're updating!"
             git config user.name "$GH_NAME"
             git config user.email "$GH_EMAIL"
-            git commit -m "CI update collecticons-lib submodule"
+            git commit -m "CI update dependencies"
             git push --quiet origin master
-
-      - run:
-          name: Deploy to npm
-          command: |
-            cd ~/repo
-            echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" >> ~/.npmrc
-            npm publish
 
 workflows:
   version: 2
