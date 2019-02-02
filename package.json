@@ -1,11 +1,12 @@
 {
   "name": "collecticons-lib",
-  "version": "2.0.5",
+  "version": "2.0.6",
   "description": "An evergrowing collection of crisp icons",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/developmentseed/collecticons-lib.git"
   },
+  "main": "index.js",
   "author": {
     "name": "Development Seed",
     "url": "https://developmentseed.org"
