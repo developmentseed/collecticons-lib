@@ -68,6 +68,8 @@ jobs:
       - GH_EMAIL: "dev@developmentseed.org"
 
     steps:
+      - checkout
+
       - add_ssh_keys:
           fingerprints:
             - "c5:19:8c:8b:8d:6e:e2:1f:b6:e9:03:cd:05:11:66:0d"
@@ -82,9 +84,9 @@ jobs:
       - run:
           name: Deploying library to collecticons site
           command: |
-            rm -rf collecticons
-            git clone $GH_DEST collecticons
-            cd collecticons
+            rm -rf ~/collecticons
+            git clone $GH_DEST ~/collecticons
+            cd ~/collecticons
             git submodule update --init --recursive
             cd collecticons-lib
             git pull origin master
@@ -96,11 +98,11 @@ jobs:
             git config user.email "$GH_EMAIL"
             git commit -m "CI update collecticons-lib submodule"
             git push --quiet origin master
-            cd ..
 
       - run:
           name: Deploy to npm
           command: |
+            cd ~/repo
             echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" >> ~/.npmrc
             npm publish
 
