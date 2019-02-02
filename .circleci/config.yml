@@ -71,6 +71,13 @@ jobs:
       - add_ssh_keys:
           fingerprints:
             - "c5:19:8c:8b:8d:6e:e2:1f:b6:e9:03:cd:05:11:66:0d"
+      - run:
+          name: Auth with github
+          command: |
+            mkdir -p ~/.ssh/
+            echo -e "Host github.com\n\tStrictHostKeyChecking no\n" > ~/.ssh/config
+            chmod 600 ~/.ssh/config
+            ssh-keyscan -Ht rsa github.com >> ~/.ssh/known_hosts
 
       - run:
           name: Deploying library to collecticons site
@@ -88,7 +95,9 @@ jobs:
             git config user.name "$GH_NAME"
             git config user.email "$GH_EMAIL"
             git commit -m "CI update collecticons-lib submodule"
-            git push --quiet master
+            git push --quiet origin master
+            cd ..
+
       - run:
           name: Deploy to npm
           command: |
