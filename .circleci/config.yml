@@ -72,7 +72,7 @@ jobs:
 
       - add_ssh_keys:
           fingerprints:
-            - "c5:19:8c:8b:8d:6e:e2:1f:b6:e9:03:cd:05:11:66:0d"
+            - "1c:4e:4e:e9:48:93:52:5e:44:96:4f:84:6b:e2:c0:3d"
       - run:
           name: Auth with github
           command: |
@@ -87,11 +87,9 @@ jobs:
             rm -rf ~/collecticons
             git clone $GH_DEST ~/collecticons
             cd ~/collecticons
-            git submodule update --init --recursive
-            cd collecticons-lib
-            git pull origin master
-            cd ..
-            git add collecticons-lib
+            yarn upgrade collecticons-lib --latest
+            git add package.json
+            git add yarn.lock
 
             echo "Get ready, we're updating!"
             git config user.name "$GH_NAME"
