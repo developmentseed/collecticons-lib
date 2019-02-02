@@ -69,8 +69,8 @@ jobs:
 
     steps:
       - add_ssh_keys:
-        fingerprints:
-          - "c5:19:8c:8b:8d:6e:e2:1f:b6:e9:03:cd:05:11:66:0d"
+          fingerprints:
+            - "c5:19:8c:8b:8d:6e:e2:1f:b6:e9:03:cd:05:11:66:0d"
 
       - run:
           name: Deploying library to collecticons site
