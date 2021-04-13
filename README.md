@@ -70,10 +70,9 @@ Collecticons operates similarly to [Semver](http://semver.org/) with the followi
 When the version changes the version number in the `package.json` file must be updated as well.
 Before merging to `master` compile the font with the [collecticons processor](https://github.com/developmentseed/collecticons-processor):
 ```
-collecticons compile svg --style-formats css --style-dest dist/styles --preview-dest dist/
+yarn collecticons compile svg/ --style-formats css --style-dest dist/styles --preview-dest dist/
 ```
 Once the merge is done a new release should be created using the version number in the `package.json`.
-
 
 ## Add Collecticons to your project
 

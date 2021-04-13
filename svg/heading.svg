@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewBox="0 0 16 16">
   <rect width="16" height="16" id="icon-bound" fill="none" />
-  <polygon points="14.707,2.707 13.293,1.293 8,6.586 2.707,1.293 1.293,2.707 6.586,8 1.293,13.293 2.707,14.707 8,9.414 
-	13.293,14.707 14.707,13.293 9.414,8 "/>
+  <path id="heading" d="M11,8l-6,0l0,-7l-2,0l0,14l2,0l0,-5l6,0l0,5l2,0l0,-14l-2,0l0,7Z" />
 </svg>

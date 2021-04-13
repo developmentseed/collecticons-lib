@@ -1,6 +1,6 @@
 {
   "name": "collecticons-lib",
-  "version": "3.1.0",
+  "version": "4.0.0",
   "description": "An evergrowing collection of crisp icons",
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/developmentseed/collecticons-lib/issues"
   },
-  "homepage": "http://collecticons.io/"
+  "homepage": "http://collecticons.io/",
+  "devDependencies": {
+    "collecticons-processor": "^4.1.0"
+  }
 }
