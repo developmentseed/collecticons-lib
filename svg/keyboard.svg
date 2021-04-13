@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewBox="0 0 16 16">
-  <rect id="svgGrid" x="0" y="0" width="16" height="16" style="fill:none;" />
+  <rect width="16" height="16" id="icon-bound" fill="none" />
   <path d="M16,4c-0,-1.105 -0.895,-2 -2,-2c-3.074,0 -8.926,0 -12,0c-1.105,0 -2,0.895 -2,2c0,2.22 0,5.78 0,8c0,1.105 0.895,2 2,2c3.074,0 8.926,0 12,0c1.105,-0 2,-0.895 2,-2c0,-2.22 0,-5.78 0,-8Zm-4,6l0,2l-8,0l0,-2l8,0Zm-8,-3l0,2l-2,0l0,-2l2,0Zm3,0l0,2l-2,0l0,-2l2,0Zm3,0l0,2l-2,0l0,-2l2,0Zm4,0l0,2l-3,0l0,-2l3,0Zm-10,-3l0,2l-2,0l0,-2l2,0Zm3,0l0,2l-2,0l0,-2l2,0Zm3,0l0,2l-2,0l0,-2l2,0Zm4,0l0,2l-3,0l0,-2l3,0Z" />
 </svg>
