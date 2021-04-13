@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/developmentseed/collecticons-lib/issues"
   },
-  "homepage": "http://collecticons.io/"
+  "homepage": "http://collecticons.io/",
+  "devDependencies": {
+    "collecticons-processor": "^4.1.0"
+  }
 }
